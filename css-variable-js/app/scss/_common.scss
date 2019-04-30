@@ -1,0 +1,21 @@
+body {
+  background: $body-color;
+}
+
+.poppins{
+  font-family: $poppins;
+  font-weight: 700;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.background{
+  &__color{
+    &-gray{
+      background: #f5f7fa;
+    }
+  }
+}
+

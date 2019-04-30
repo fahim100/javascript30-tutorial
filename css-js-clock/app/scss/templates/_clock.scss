@@ -1,8 +1,8 @@
 .clock{
-  position: relative;
+  position: absolute;
   height: 400px;
   width: 400px;
-  margin: 100px auto;
+  // margin: 100px auto;
   padding: 2rem;
   border: 20px solid #222222;
   background: url('../images/clock.png');
@@ -15,6 +15,9 @@
         inset 0 0 0 3px #EFEFEF,
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   .clock-face{
     position: relative;
     width: 100%;
@@ -30,6 +33,16 @@
       transform-origin: 100%;
       transition: all .05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+      &.hour-hand{
+        width: 30%;
+        right: 50%;
+        height: 8px;
+        border-radius: 100% 0 0 100%;
+      }
+      &.second-hand{
+        background: coral;
+        height: 3px;
+      }
     }
   }
 }

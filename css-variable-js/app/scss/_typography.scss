@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,500,600,700|Roboto:400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+  font-family: $secondary-font;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $primary-font;
+  color: $text-color-dark;
+}

@@ -1,0 +1,25 @@
+
+$spacing: 20px;
+$blur: 5px;
+$base: #ffc600;
+.section{
+  background: #162E3E;
+  h1{
+    color: $white;
+    font-family: $secondary-font;
+    font-weight: bold;
+    span{
+      color: $base;
+    }
+  }
+  .control{
+    margin: 50px;
+  }
+  img{
+    padding: $spacing;
+    background: $base;
+    filter: blur($blur);
+    height: 800px;
+    width: 100%;
+  }
+}
